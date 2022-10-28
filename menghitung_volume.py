@@ -1,12 +1,12 @@
-# nama = input("Nama : ")
-# npm = input("NPM : ")
-# kelas = input("Kelas : ")
-# jurusan = input("Jurusan : ")
-# fakultas = input("Fakultas : ")
-# nama_universitas = input("Nama Universitas : ")
-# ttl = input("Tempat, tanggal lahir : ")
-# asal_daerah = input("Asal Daerah : ")
-# domisili = input("Domisili : ")
+nama = input("Nama : ")
+npm = input("NPM : ")
+kelas = input("Kelas : ")
+jurusan = input("Jurusan : ")
+fakultas = input("Fakultas : ")
+nama_universitas = input("Nama Universitas : ")
+ttl = input("Tempat, tanggal lahir : ")
+asal_daerah = input("Asal Daerah : ")
+domisili = input("Domisili : ")
 
 print("""
 1. PROGRAM MENGHITUNG VOLUME BALOK
