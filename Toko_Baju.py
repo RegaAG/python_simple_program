@@ -4,12 +4,14 @@ print("-"*25)
 
 harga_baju_ukuran_s = float(input("Masukan harga baju ukuran S : "))
 
-harga_baju_ukuran_l = harga_baju_ukuran_s * 1.1
-harga_baju_ukuran_xl = harga_baju_ukuran_s * 1.5
-harga_baju_ukuran_xxl = harga_baju_ukuran_s * 1.7
+harga_baju_ukuran_m = harga_baju_ukuran_s * 1.2
+harga_baju_ukuran_l = harga_baju_ukuran_s * 1.5
+harga_baju_ukuran_xl = harga_baju_ukuran_s * 1.7
+harga_baju_ukuran_xxl = harga_baju_ukuran_s * 2.5
 
 print("-"*25)
 print(f"Harga baju ukuran S Rp.{harga_baju_ukuran_s:,}")
+print(f"Harga baju ukuran M Rp.{harga_baju_ukuran_m:,}")
 print(f"Harga baju ukuran L Rp.{harga_baju_ukuran_l:,}")
 print(f"Harga baju ukuran XL Rp.{harga_baju_ukuran_xl:,}")
 print(f"Harga baju ukuran XXL Rp.{harga_baju_ukuran_xxl:,}")
@@ -25,6 +27,9 @@ while True:
         jumlah_barang = int(input("Jumlah yang ingin dibeli per kodi : "))
         barang.append('Baju ukuran S')
         jumlah += harga_baju_ukuran_s * jumlah_barang
+    elif (ukuran == 'M'):
+        jumlah_barang = int(input("Jumlah yang ingin dibeli per kodi : "))
+        barang.append('Baju ukuran M')
     elif (ukuran == 'L'):
         jumlah_barang = int(input("Jumlah yang ingin dibeli per kodi : "))
         barang.append('Baju ukuran L')
