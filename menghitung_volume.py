@@ -62,6 +62,18 @@ while True:
         v = (1/3 * 3.14 * r * r * t)
         print(f"VOLUMENYA ADALAH {v:,}")
 
+    elif (opsi == 5):
+        print("""
+
+        PROGRAM MENGHITUNG VOLUME PERISMA SEGITIGA
+        
+        """)
+        t = int(input("Masukan nilai t : "))
+        tinggi = int(input("Tinggi alas segitiga : "))
+        alas = int(input("Masukan alas nya : "))
+        v = ((1/2 * alas * tinggi) * t )
+        print(f"VOLUMENYA ADALAH {v}cm")
+
 
     else:
         print("PROGRAM TIDAK ADA")
